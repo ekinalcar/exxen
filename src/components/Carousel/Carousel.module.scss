@@ -1,0 +1,17 @@
+.carousel {
+  display: block;
+  width: 500px;
+}
+
+.arrow {
+  color: #fff;
+  &:hover {
+    color: #ffcb04;
+  }
+}
+@media screen and (max-width: 980px) {
+  .carousel {
+    width: 50%;
+    margin-top: 50px;
+  }
+}

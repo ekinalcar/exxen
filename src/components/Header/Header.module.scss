@@ -1,0 +1,13 @@
+.header {
+  width: 250px;
+  .logo {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .header {
+    width: 100px;
+  }
+}

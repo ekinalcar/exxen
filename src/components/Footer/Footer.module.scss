@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #fafafa;
+  padding-top: 25px;
+  max-width: 250px;
+  &.mobile {
+    max-width: 100%;
+    padding: 15px 25px;
+    justify-content: center;
+    .link {
+      margin: 0 15px;
+    }
+  }
+  .link {
+    svg {
+      width: 20px;
+    }
+
+    &:hover {
+      color: #ffcb04;
+    }
+    color: #fafafa;
+    outline: none;
+  }
+}

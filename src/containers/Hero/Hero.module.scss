@@ -1,0 +1,11 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 980px) {
+  .hero {
+    flex-direction: column;
+    padding: 25px 0;
+  }
+}
